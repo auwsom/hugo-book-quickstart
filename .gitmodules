@@ -1,0 +1,3 @@
+[submodule "exampleSite/hugo-book"]
+	path = exampleSite/hugo-book
+	url = https://github.com/alex-shpak/hugo-book
