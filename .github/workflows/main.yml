@@ -16,7 +16,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: ${{ matrix.hugo-version }}
+          #hugo-version: ${{ matrix.hugo-version }}
+          hugo-version: 'latest'
           extended: true
 
       - name: Run Hugo
