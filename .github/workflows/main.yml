@@ -10,7 +10,7 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Update theme
+      #- name: Update theme
         #run: git submodule update --init --recursive
 
       - name: Setup hugo
