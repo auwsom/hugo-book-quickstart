@@ -24,4 +24,4 @@ jobs:
         # docs: https://gohugo.io/hugo-pipes/minification/
 
         working-directory: exampleSite
-        run: hugo --minify
+        run: hugo --minify --themesDir .
